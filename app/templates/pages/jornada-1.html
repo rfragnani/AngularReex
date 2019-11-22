@@ -1,0 +1,82 @@
+<div ng-controller="Jornada1">
+  <section class="content jornada-reex">
+    <div class="container pt-4">
+      <form ng-submit="jornada1Manager.avancarJornada2()">
+        <div class="row pb-1">
+          <div class="col-sm">
+            <div class="mbr-light display-7 purple">
+              Qual tipo do imóvel?
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="input-group form-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input type="radio" ng-model="jornada.jornada1.imovelSelecionado"
+                   name="gridRadios" id="gridRadios1" value="casa" checked>
+                </div>
+              </div>
+              <div class="mbr-light display-7 form-control">Casa</div>
+            </div>
+
+          </div>
+
+          <div class="col-sm">
+            <div class="input-group form-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input type="radio"  ng-model="jornada.jornada1.imovelSelecionado"
+                   name="gridRadios" id="gridRadios2" value="apartamento">
+                </div>
+              </div>
+              <div class="mbr-light display-7 form-control">Apartamento</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="input-group form-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input type="radio" name="gridRadios"  ng-model="jornada.jornada1.imovelSelecionado""
+                   id="gridRadios3" value="salaComercial">
+                </div>
+              </div>
+              <div class="mbr-light display-7 form-control">Sala Comercial</div>
+            </div>
+
+          </div>
+
+          <div class="col-sm">
+            <div class="input-group form-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input type="radio" name="gridRadios" id="gridRadios4"  ng-model="jornada.jornada1.imovelSelecionado""
+                   value="outros">
+                </div>
+              </div>
+              <div class="mbr-light display-7 form-control">Outro</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="align-right">
+
+              <button type="submit" id="submit" value="Submit" class="btn btn-danger display-8">Avançar
+                  <span class="align-right mbr-iconfont mbri-arrow-next" style="color:rgba(255, 255, 255, 0,5); fill:rgba(255, 255, 255, 0,5)"></span>
+                </button>
+
+            </div>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </section>
+</div>

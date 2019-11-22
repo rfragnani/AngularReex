@@ -1,0 +1,11 @@
+{
+  "id": "ck2ux4vm10007u2028gdrlx05",
+  "value": 1000000.0,
+  "tax": 1.24,
+  "quota": 12345.56,
+  "termDate": "2023-01-01T23:28:57.000+0000",
+  "source": "Zootopia",
+  "operation": "INSERT",
+  "createdDate": "2019-11-11",
+  "modifiedDate": "2019-11-11"
+}

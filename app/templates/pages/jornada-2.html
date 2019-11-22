@@ -1,0 +1,79 @@
+<div ng-controller="Jornada2">
+  <section class="content jornada-reex">
+    <div class="container pt-4">
+      <form ng-submit="jornada2Manager.avancarJornada3();">
+        <div class="row">
+          <div class="col-sm">
+            <div class="mbr-light display-7 purple">
+              Área Terreno <small class="silver">em m²</small>
+            </div>
+            <div class="form-group">
+              <input min="0" ng-model="jornada.jornada2.metrosTerreno" type="number" class="form-control mbr-light display-7" name=" " required>
+            </div>
+          </div>
+
+          <div class="col-sm">
+            <div class="mbr-light display-7 purple">
+              Área Construída <small <small class="silver">em m²</small>
+            </div>
+            <div class="form-group">
+              <input min="0" type="number" ng-model="jornada.jornada2.metrosConstruidos" class="form-control mbr-light display-7" name=" " required>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="mbr-light display-7 purple">
+              Dormitórios
+            </div>
+            <div class="form-group">
+              <input min="0" type="number" ng-model="jornada.jornada2.dormitorios" class="form-control mbr-light display-7">
+            </div>
+          </div>
+
+          <div class="col-sm">
+            <div class="mbr-light display-7 purple">
+              Suites
+            </div>
+            <div class="form-group">
+              <input min="0" type="number" ng-model="jornada.jornada2.suites" class="form-control mbr-light display-7">
+            </div>
+          </div>
+
+          <div class="col-sm">
+            <div class="mbr-light display-7 purple">
+              Banheiros
+            </div>
+            <div class="form-group">
+              <input min="0" type="number" ng-model="jornada.jornada2.banheiros" class="form-control mbr-light display-7">
+            </div>
+          </div>
+
+          <div class="col-sm">
+            <div class="mbr-light display-7 purple">
+              Vagas
+            </div>
+            <div class="form-group">
+              <input min="0" type="number" ng-model="jornada.jornada2.vagas" class="form-control mbr-light display-7">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="align-right">
+
+              <button type="submit" id="submit" value="Submit" class="btn btn-danger display-8">Avançar
+                  <span class="align-right mbr-iconfont mbri-arrow-next" style="color:rgba(255, 255, 255, 0,5); fill:rgba(255, 255, 255, 0,5)"></span>
+                </button>
+
+            </div>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </section>
+</div>

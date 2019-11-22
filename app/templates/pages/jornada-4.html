@@ -1,0 +1,68 @@
+<div ng-controller="Jornada4">
+  <section class="content jornada-reex">
+    <div class="container pt-4">
+      <form ng-submit="jornada4Manager.avancarJornada5();">
+
+        <div class="row pb-1">
+          <div class="col-6">
+            <div class="mbr-light display-7 purple">
+              Qual seu nome?
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="align-right display-7 cyan uppercase">
+              <small class="mbr-semibold"><a class="mbr-semibold" href="#/jornadaLogin">JÁ tenho cadastro</a></small>
+            </div>
+
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="form-group">
+              <input type="text" ng-model="jornada.jornada4.nome" required class="form-control mbr-light display-7" placeholder="seu nome">
+            </div>
+          </div>
+        </div>
+
+        <div class="row pb-1">
+          <div class="col-sm">
+            <div class="mbr-light display-7 purple">
+              Qual seu melhor E-mail? <small class="silver">Fique tranquilo, nós também não gostamos de spam</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="form-group">
+              <input type="email" class="form-control mbr-light display-7" ng-model="jornada.jornada4.email" placeholder="seuemail@email.com.br"
+                required>
+            </div>
+
+            <div class="mbr-light display-7">
+              <small class="silver">Fique tranquilo, nós também não gostamos de spam</small>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="align-right">
+
+              <button type="submit" class="btn btn-danger display-8">Avançar
+                  <span class="align-right mbr-iconfont mbri-arrow-next" style="color:rgba(255, 255, 255, 0,5); fill:rgba(255, 255, 255, 0,5)"></span>
+                </button>
+
+            </div>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </section>
+</div>

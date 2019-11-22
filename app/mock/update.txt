@@ -1,0 +1,15 @@
+{
+  "id": "ck2uwaceu0001u202kw07f50l",
+  "name": "renato",
+  "email": "renato.haber@reex.com.br",
+  "password": "IZt/CEgRf46cypklsYaPhQ==",
+  "phone": "1137141152",
+  "taxId": "18091049803",
+  "lastLogin": "2019-11-11T22:26:26.413+0000",
+  "emailVerified": false,
+  "createdDate": "2019-11-11T20:47:51.588+0000",
+  "lastModifiedDate": "2019-11-11T22:26:26.414+0000",
+  "version": 8,
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJjazJ1d2FjZXUwMDAxdTIwMmt3MDdmNTBsIiwiaWF0IjoxNTczNTExMDM5LCJzdWIiOiJyZW5hdG8uaGFiZXJAcmVleC5jb20uYnIiLCJpc3MiOiJcInJlZXhcIiIsImV4cCI6MzE0NzAyMjQ5OH0.mh1OxYJ5NhCozX8HzZVc0PIVLbYEJrHuPfYi4mT_iDk",
+  "delete": false
+}

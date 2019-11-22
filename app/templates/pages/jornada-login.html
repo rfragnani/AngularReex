@@ -1,0 +1,74 @@
+ 
+
+<div data-ng-controller="JornadaLogin">
+<section class="content jornada-reex">
+        <div class="container pt-4">
+          <form  ng-submit="jornadaLoginManager.signin()">
+
+          <div class="row pb-1">
+            <div class="col-6">
+              <div class="mbr-light display-7 purple">
+              Seu E-mail
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="align-right display-7 cyan uppercase">
+              <small class="mbr-semibold"><a class="mbr-semibold" href="#/jornadaMeusDados">Quero me cadastrar</a></small>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm">
+               <div class="form-group">
+                  <input type="email" class="form-control mbr-light display-7"
+                   ng-model="jornada.jornadaLogin.email" required
+                   placeholder="seuemail@email.com.br">
+                </div>
+            </div> 
+          </div>
+
+          <div class="row pb-1">
+            <div class="col-6">
+              <div class="mbr-light display-7 purple">
+              Senha
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="align-right display-7 silver">
+              <small class="mbr-semibold"><a class="mbr-semibold" href="#">Esqueci minha senha</a></small>
+              </div>
+          </div>
+
+          </div>
+
+          <div class="row pb-2">
+            <div class="col-sm">
+               <div class="form-group">
+                  <input ng-model="jornada.jornadaLogin.senha"
+                  required type="password" class="form-control mbr-light display-7" placeholder="******">
+                </div>
+            </div> 
+          </div>
+
+
+          <div class="row">
+            <div class="col-sm">
+              <div class="align-right">
+
+                <button type="submit" class="btn btn-danger display-8" >Entrar
+                  <span class="align-right mbr-iconfont mbri-arrow-next" style="color:rgba(255, 255, 255, 0,5); fill:rgba(255, 255, 255, 0,5)"></span>
+                </button>
+
+              </div>
+            </div>
+          </div>
+        </form>
+        </div>
+</section>
+</div>
+
+ 

@@ -1,0 +1,79 @@
+<div ng-controller="Jornada10">
+  <section class="content content-scroll jornada-reex">
+    <div class="container pt-4">
+      <div class="row pt-5 pb-5">
+        <div class="col-sm border-right">
+          <div class="align-center mbr-light display-7 purple uppercase">
+            valor de Compra
+          </div>
+          <div class="align-center mbr-bold display-4 purple uppercase">
+            R$ {{jornada.jornada9.forcada}}
+          </div>
+          <div class="pb-3 align-center mbr-light display-7 purple">
+            Total a Receber
+          </div>
+
+          <div class="pb-2 align-center mbr-light display-7 silver">
+
+            <small class="d-none d-md-block d-lg-block">
+                &nbsp;  <br/>
+                &nbsp;  <br/>
+                &nbsp;  <br/>
+                &nbsp;  <br/>
+                &nbsp;  <br/>
+               </small>
+          </div>
+
+          <div class="pb-2 align-center">
+            <button type="submit" class="btn btn-primary display-8"><a href="#/jornada11">detalhes da proposta</a>
+                </button>
+          </div>
+
+          <div class="pb-4 align-center mbr-light display-8 silver">
+            <small>Proposta sujeita à análise da documentação do imóvel <br/> e dos seus proprietários.</small>
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="align-center mbr-light display-7 cyan uppercase">
+            valor de refinanciamento
+          </div>
+          <div class="align-center mbr-bold display-4 cyan uppercase">
+            R$  {{jornada.jornada10.value}}
+          </div>
+
+          <div class="pb-3 align-center mbr-light display-7 cyan">
+            Valor Máximo Financiado
+          </div>
+
+          <div class="pb-2 align-center mbr-light display-7 silver">
+
+            <small>Valor Total Financiado: R$ {{jornada.jornada10.value}} <br/>
+                Taxa Efetiva Total: {{jornada.jornada10.tax}}% a.m.+IPCA <br/>
+                Prazo de Pagamento: 120 meses <br/>
+                Valor da Parcela: R$ {{jornada.jornada10.quota}} <br/>
+               </small>
+          </div>
+
+          <div class="pb-2 align-center">
+            <button type="submit" class="btn btn-danger display-8"><a href="#/jornada11">detalhes da proposta</a>
+                </button>
+          </div>
+
+
+          <div class="pb-2 align-center mbr-light display-8 silver">
+            <small>Proposta sujeita à análise de crédito do tomador e da documentação do imóvel e dos seus proprietários.</small>
+          </div>
+
+          <div class="pb-3 align-center mbr-light display-8 silver">
+            <small>1. Valor inclui IOF, seguros do imóvel e contra morte e invalidez. <br/> 
+                2. Prazo da operação poderá variar de 36 a 180 meses.</small>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+</div>

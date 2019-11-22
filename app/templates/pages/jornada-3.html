@@ -1,0 +1,73 @@
+<div ng-controller="Jornada3">
+  <section class="content jornada-reex">
+    <div class="container pt-4">
+      <form ng-submit="jornada3Manager.avancarJornada4();">
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="mbr-light display-7 purple">
+              Cep
+            </div>
+            <div class="form-group">
+              <input ng-blur="jornada3Manager.getCep(jornada.jornada3.cep)" ng-model="jornada.jornada3.cep" type="tel" class="form-control mbr-light display-7"
+                placeholder="00000 000" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="mbr-light display-7 purple">
+              Endereço
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control mbr-light display-7" ng-model="jornada.jornada3.logradouro" required>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="mbr-light display-7 purple">
+              Número
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control mbr-light display-7" ng-model="jornada.jornada3.numero" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="mbr-light display-7 purple">
+              Cidade
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control mbr-light display-7" ng-model="jornada.jornada3.localidade" required>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="mbr-light display-7 purple">
+              Estado
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control mbr-light display-7" ng-model="jornada.jornada3.uf" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="align-right">
+
+              <button type="submit" class="btn btn-danger display-8">Avançar
+                  <span class="align-right mbr-iconfont mbri-arrow-next" style="color:rgba(255, 255, 255, 0,5); fill:rgba(255, 255, 255, 0,5)"></span>
+                </button>
+
+            </div>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </section>
+</div>

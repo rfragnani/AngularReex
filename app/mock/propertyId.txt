@@ -1,0 +1,8 @@
+{
+  "propertyId": "ck2uwacem0000u202lzhjr83f",
+  "estimativaCompra": 100.0,
+  "mercado": 200.0,
+  "forcada": 300.0,
+  "source": "Galache",
+  "path": "/var/foo/report"
+}

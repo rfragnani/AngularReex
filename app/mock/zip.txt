@@ -1,0 +1,1 @@
+{"cep":"17509-080","logradouro":"Rua Paraná","complemento":"até 600/601","bairro":"Marília","localidade":"Marília","uf":"SP","unidade":"","ibge":"3529005","gia":"4388"}
